@@ -4,9 +4,9 @@
 
 nitrogen --restore &
 betterlockscreen -u /home/tarun/Pictures/arcolinux/wallpaper.jpg &
---no-startup-id xfce4-power-manager &
+xfce4-power-manager &
 xinput set-prop 12 309 1 &
---no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 blueman-applet &
 #setxkbmap pl &
 flameshot &
