@@ -14,7 +14,7 @@ flameshot &
 picom -b &
 nm-applet &
 sh ~/.config/polybar/launch.sh
-
+/usr/bin/emacs --daemon &
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
